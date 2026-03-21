@@ -2,6 +2,8 @@
 
 Our solutions for [NM i AI 2026](https://ainm.no) — Norway's National AI Championship.
 
+**Repository:** https://github.com/philipihle/nmiai-2026
+
 ## Tasks
 
 ### Task 1 — Tripletex (AI Accounting Agent)
