@@ -1,0 +1,32 @@
+{
+  "7": {
+    "round": 7,
+    "settle_rate": 0.14070875,
+    "score": 72.9193028544847,
+    "params": {
+      "spawn_prob": 0.12,
+      "spawn_pop_threshold": 0.7,
+      "death_base_rate": 0.02,
+      "death_food_factor": 0.04,
+      "pop_growth_rate": 0.06,
+      "food_base_regen": 0.2,
+      "food_competition": 0.03,
+      "food_pop_drain": 0.1,
+      "food_forest_bonus": 0.02,
+      "port_prob": 0.08,
+      "death_competition_factor": 0.01,
+      "spawn_max_per_step": 40,
+      "port_wealth_threshold": 0.0,
+      "wealth_decay": 0.0,
+      "wealth_coastal_rate": 0.01,
+      "port_survival_bonus": 0.0
+    },
+    "per_seed": [
+      73.378472554427,
+      73.96690192808127,
+      72.67587118476354,
+      71.8862022543445,
+      72.68906635080714
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+CPUs: 192
+Tuning rounds: [2]
+
+============================================================
+R2: settle_rate=0.186, 5 seeds
+============================================================
+46656 combos x 5 seeds x 20 MC (coarse)
+  [  384/46656] 1%  5s  ETA 580s  best=46.3
+  [  768/46656] 2%  8s  ETA 449s  best=46.6
+  [ 1152/46656] 2%  10s  ETA 405s  best=46.6
+  [ 1536/46656] 3%  13s  ETA 381s  best=46.6
+  [ 1920/46656] 4%  16s  ETA 369s  best=46.6
+  [ 2304/46656] 5%  19s  ETA 359s  best=46.6
+  [ 2688/46656] 6%  21s  ETA 348s  best=46.6
+  [ 3072/46656] 7%  24s  ETA 340s  best=46.6
+  [ 3456/46656] 7%  27s  ETA 333s  best=46.6
+  [ 3840/46656] 8%  29s  ETA 328s  best=46.6
+  [ 4224/46656] 9%  32s  ETA 322s  best=46.6
+  [ 4608/46656] 10%  35s  ETA 316s  best=46.6
+  [ 4992/46656] 11%  37s  ETA 311s  best=46.6
+  [ 5376/46656] 12%  40s  ETA 306s  best=46.6
+  [ 5760/46656] 12%  42s  ETA 301s  best=46.6
+  [ 6144/46656] 13%  45s  ETA 297s  best=46.6
+  [ 6528/46656] 14%  48s  ETA 293s  best=46.6
+  [ 6912/46656] 15%  50s  ETA 289s  best=46.6
+  [ 7296/46656] 16%  53s  ETA 285s  best=46.6
+  [ 7680/46656] 16%  56s  ETA 282s  best=46.6
+  [ 8064/46656] 17%  58s  ETA 278s  best=46.6
+  [ 8448/46656] 18%  61s  ETA 274s  best=46.6
+  [ 8832/46656] 19%  63s  ETA 271s  best=46.6
+  [ 9216/46656] 20%  66s  ETA 267s  best=46.6
+  [ 9600/46656] 21%  68s  ETA 264s  best=46.6
+  [ 9984/46656] 21%  71s  ETA 260s  best=46.6
+  [10368/46656] 22%  73s  ETA 257s  best=46.6
+  [10752/46656] 23%  76s  ETA 254s  best=46.6
+  [11136/46656] 24%  79s  ETA 251s  best=46.6
+  [11520/46656] 25%  81s  ETA 247s  best=46.6
+  [11904/46656] 26%  85s  ETA 247s  best=59.2
+  [12288/46656] 26%  88s  ETA 247s  best=59.2
+  [12672/46656] 27%  92s  ETA 246s  best=59.3
+  [13056/46656] 28%  95s  ETA 245s  best=59.3
+  [13440/46656] 29%  99s  ETA 244s  best=59.3
+  [13824/46656] 30%  102s  ETA 243s  best=59.3
+  [14208/46656] 30%  106s  ETA 241s  best=59.3
+  [14592/46656] 31%  109s  ETA 240s  best=59.3
+  [14976/46656] 32%  113s  ETA 238s  best=59.3
+  [15360/46656] 33%  116s  ETA 236s  best=59.3
+  [15744/46656] 34%  119s  ETA 234s  best=59.3
+  [16128/46656] 35%  123s  ETA 233s  best=59.3
+  [16512/46656] 35%  126s  ETA 230s  best=59.3
+  [16896/46656] 36%  130s  ETA 228s  best=59.3
+  [17280/46656] 37%  133s  ETA 226s  best=59.3
+  [17664/46656] 38%  136s  ETA 224s  best=59.3
+  [18048/46656] 39%  140s  ETA 221s  best=59.3
+  [18432/46656] 40%  143s  ETA 219s  best=59.3
+  [18816/46656] 40%  146s  ETA 216s  best=59.3
+  [19200/46656] 41%  150s  ETA 214s  best=59.3
+  [19584/46656] 42%  153s  ETA 211s  best=59.3
+  [19968/46656] 43%  156s  ETA 209s  best=59.3
+  [20352/46656] 44%  159s  ETA 206s  best=59.3
+  [20736/46656] 44%  163s  ETA 203s  best=59.3
+  [21120/46656] 45%  166s  ETA 201s  best=59.3
+  [21504/46656] 46%  169s  ETA 198s  best=59.3
+  [21888/46656] 47%  173s  ETA 195s  best=59.3
+  [22272/46656] 48%  176s  ETA 192s  best=59.3
+  [22656/46656] 49%  179s  ETA 190s  best=59.3
+  [23040/46656] 49%  182s  ETA 187s  best=59.3
+  [23424/46656] 50%  186s  ETA 185s  best=59.3
+  [23808/46656] 51%  191s  ETA 183s  best=59.3
+  [24192/46656] 52%  195s  ETA 181s  best=59.3
+  [24576/46656] 53%  200s  ETA 180s  best=59.7
+  [24960/46656] 53%  204s  ETA 178s  best=60.5
+  [25344/46656] 54%  209s  ETA 176s  best=60.5
+  [25728/46656] 55%  213s  ETA 173s  best=60.5
+  [26112/46656] 56%  218s  ETA 171s  best=60.6
+  [26496/46656] 57%  222s  ETA 169s  best=60.6
+  [26880/46656] 58%  227s  ETA 167s  best=60.6
+  [27264/46656] 58%  231s  ETA 164s  best=60.8
+  [27648/46656] 59%  235s  ETA 162s  best=60.8
+  [28032/46656] 60%  240s  ETA 159s  best=60.8
+  [28416/46656] 61%  244s  ETA 157s  best=60.8
+  [28800/46656] 62%  248s  ETA 154s  best=60.8
+  [29184/46656] 63%  253s  ETA 151s  best=60.8
+  [29568/46656] 63%  257s  ETA 148s  best=60.8
+  [29952/46656] 64%  261s  ETA 146s  best=61.0
+  [30336/46656] 65%  266s  ETA 143s  best=61.1
+  [30720/46656] 66%  270s  ETA 140s  best=61.1
+  [31104/46656] 67%  274s  ETA 137s  best=61.1
+  [31488/46656] 67%  278s  ETA 134s  best=61.1
+  [31872/46656] 68%  282s  ETA 131s  best=61.1
+  [32256/46656] 69%  286s  ETA 128s  best=61.1
+  [32640/46656] 70%  290s  ETA 125s  best=61.1
+  [33024/46656] 71%  294s  ETA 122s  best=61.1
+  [33408/46656] 72%  299s  ETA 118s  best=61.1
+  [33792/46656] 72%  303s  ETA 115s  best=61.1
+  [34176/46656] 73%  307s  ETA 112s  best=61.2
+  [34560/46656] 74%  310s  ETA 109s  best=61.2
+  [34944/46656] 75%  315s  ETA 105s  best=61.2
+  [35328/46656] 76%  320s  ETA 103s  best=61.2
+  [35712/46656] 77%  326s  ETA 100s  best=61.2
+  [36096/46656] 77%  331s  ETA 97s  best=61.2
+  [36480/46656] 78%  336s  ETA 94s  best=61.2
+  [36864/46656] 79%  342s  ETA 91s  best=61.2
+  [37248/46656] 80%  347s  ETA 88s  best=61.2
+  [37632/46656] 81%  353s  ETA 85s  best=61.2
+  [38016/46656] 81%  358s  ETA 81s  best=61.2
+  [38400/46656] 82%  363s  ETA 78s  best=61.2
+  [38784/46656] 83%  369s  ETA 75s  best=61.2
+  [39168/46656] 84%  374s  ETA 71s  best=61.2
+  [39552/46656] 85%  379s  ETA 68s  best=61.2
+  [39936/46656] 86%  385s  ETA 65s  best=61.2
+  [40320/46656] 86%  390s  ETA 61s  best=61.2
+  [40704/46656] 87%  395s  ETA 58s  best=61.2
+  [41088/46656] 88%  400s  ETA 54s  best=61.2
+  [41472/46656] 89%  405s  ETA 51s  best=61.2
+  [41856/46656] 90%  411s  ETA 47s  best=61.2
+  [42240/46656] 91%  416s  ETA 43s  best=61.2
+  [42624/46656] 91%  421s  ETA 40s  best=61.2
+  [43008/46656] 92%  426s  ETA 36s  best=61.2
+  [43392/46656] 93%  431s  ETA 32s  best=61.2
+  [43776/46656] 94%  436s  ETA 29s  best=61.2
+  [44160/46656] 95%  441s  ETA 25s  best=61.2
+  [44544/46656] 95%  446s  ETA 21s  best=61.2
+  [44928/46656] 96%  451s  ETA 17s  best=61.2
+  [45312/46656] 97%  456s  ETA 14s  best=61.2
+  [45696/46656] 98%  461s  ETA 10s  best=61.2
+  [46080/46656] 99%  466s  ETA 6s  best=61.2
+  [46464/46656] 100%  471s  ETA 2s  best=61.2
+  [46656/46656] 100%  473s  ETA 0s  best=61.2
+
+Deep eval top 5 (200 MC)...
+  [1/5] avg=83.5
+  [2/5] avg=83.2
+  [3/5] avg=82.8
+  [4/5] avg=82.7
+  [5/5] avg=82.6
+
+R2 BEST: 83.5
+  spawn_prob=0.1
+  spawn_pop_threshold=0.5
+  death_base_rate=0.015
+  death_food_factor=0.04
+  pop_growth_rate=0.12
+  food_base_regen=0.2
+  food_competition=0.03
+  food_pop_drain=0.04
+  food_forest_bonus=0.04
+  port_survival_bonus=0.0
+Saved to replay_cache/per_round_params.json
+
+============================================================
+FITTING INTERPOLATION
+============================================================
+
+Data points: 17
+Rate range: 0.021 - 0.333
+
+Round | Rate  | Score | Key params
+--------------------------------------------------------------------------------
+R 3   | 0.021 |  87.8 | sp=0.15 db=0.150 fbr=0.15 fc=0.05 ffb=0.02
+R10   | 0.027 |  87.4 | sp=0.15 db=0.080 fbr=0.15 fc=0.05 ffb=0.04
+R 8   | 0.040 |  90.9 | sp=0.10 db=0.100 fbr=0.15 fc=0.03 ffb=0.04
+R16   | 0.087 |  84.0 | sp=0.08 db=0.030 fbr=0.25 fc=0.04 ffb=0.06
+R 4   | 0.103 |  87.8 | sp=0.08 db=0.030 fbr=0.15 fc=0.03 ffb=0.04
+R13   | 0.105 |  88.3 | sp=0.08 db=0.030 fbr=0.15 fc=0.02 ffb=0.06
+R 5   | 0.132 |  83.9 | sp=0.08 db=0.010 fbr=0.20 fc=0.02 ffb=0.02
+R 9   | 0.138 |  87.4 | sp=0.10 db=0.020 fbr=0.20 fc=0.03 ffb=0.04
+R12   | 0.148 |  58.7 | sp=0.08 db=0.005 fbr=0.30 fc=0.02 ffb=0.06
+R 7   | 0.150 |  68.7 | sp=0.08 db=0.005 fbr=0.30 fc=0.01 ffb=0.02
+R 1   | 0.161 |  84.3 | sp=0.08 db=0.005 fbr=0.25 fc=0.03 ffb=0.06
+R 2   | 0.186 |  83.5 | sp=0.10 db=0.015 fbr=0.20 fc=0.03 ffb=0.04
+R 6   | 0.238 |  83.6 | sp=0.12 db=0.005 fbr=0.20 fc=0.03 ffb=0.06
+R14   | 0.241 |  81.1 | sp=0.10 db=0.005 fbr=0.20 fc=0.01 ffb=0.04
+R17   | 0.257 |  85.7 | sp=0.10 db=0.010 fbr=0.20 fc=0.01 ffb=0.08
+R11   | 0.259 |  84.6 | sp=0.10 db=0.005 fbr=0.25 fc=0.01 ffb=0.08
+R18   | 0.333 |  73.5 | sp=0.10 db=0.005 fbr=0.35 fc=0.01 ffb=0.08
+
+Interpolation coefficients (param = a * settle_rate + b):
+param                            a        b     R²
+--------------------------------------------------
+spawn_prob                 -0.0593   0.1080  0.054
+spawn_pop_threshold         0.0787   0.4290  0.004
+death_base_rate            -0.3450   0.0833  0.550
+death_food_factor          -0.3763   0.1146  0.638
+pop_growth_rate             0.0992   0.0888  0.247
+food_base_regen             0.4094   0.1515  0.359
+food_competition           -0.1145   0.0430  0.586
+food_pop_drain              0.0215   0.0567  0.012
+food_forest_bonus           0.1422   0.0275  0.392
+port_survival_bonus        -0.0215   0.0098  0.033
+
+============================================================
+GENERATED CODE FOR solver.py
+============================================================
+
+# --- Per-round parameter interpolation ---
+# Generated by tune_per_round.py on 2026-03-22 00:48
+# Calibration points: 17 rounds
+
+_CALIBRATION_POINTS = [
+    {'rate': 0.0213, 'round': 3, 'score': 87.8, 'params': {
+        'spawn_prob': 0.15,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.15,
+        'death_food_factor': 0.15,
+        'pop_growth_rate': 0.08,
+        'food_base_regen': 0.15,
+        'food_competition': 0.05,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.02,
+        'port_survival_bonus': 0.03,
+    }},
+    {'rate': 0.0269, 'round': 10, 'score': 87.4, 'params': {
+        'spawn_prob': 0.15,
+        'spawn_pop_threshold': 0.7,
+        'death_base_rate': 0.08,
+        'death_food_factor': 0.15,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.15,
+        'food_competition': 0.05,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.0395, 'round': 8, 'score': 90.9, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.1,
+        'death_food_factor': 0.1,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.15,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.0874, 'round': 16, 'score': 84.0, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.03,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.08,
+        'food_base_regen': 0.25,
+        'food_competition': 0.04,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.06,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.1027, 'round': 4, 'score': 87.8, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.03,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.12,
+        'food_base_regen': 0.15,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.06,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.1055, 'round': 13, 'score': 88.3, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.03,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.15,
+        'food_competition': 0.02,
+        'food_pop_drain': 0.06,
+        'food_forest_bonus': 0.06,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.1321, 'round': 5, 'score': 83.9, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.01,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.08,
+        'food_base_regen': 0.2,
+        'food_competition': 0.02,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.02,
+        'port_survival_bonus': 0.02,
+    }},
+    {'rate': 0.1385, 'round': 9, 'score': 87.4, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.02,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.12,
+        'food_base_regen': 0.2,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.1476, 'round': 12, 'score': 58.7, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.3,
+        'food_competition': 0.02,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.06,
+        'port_survival_bonus': 0.02,
+    }},
+    {'rate': 0.1499, 'round': 7, 'score': 68.7, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.04,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.3,
+        'food_competition': 0.01,
+        'food_pop_drain': 0.06,
+        'food_forest_bonus': 0.02,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.1610, 'round': 1, 'score': 84.3, 'params': {
+        'spawn_prob': 0.08,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.25,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.06,
+        'port_survival_bonus': 0.02,
+    }},
+    {'rate': 0.1858, 'round': 2, 'score': 83.5, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.015,
+        'death_food_factor': 0.04,
+        'pop_growth_rate': 0.12,
+        'food_base_regen': 0.2,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.2375, 'round': 6, 'score': 83.6, 'params': {
+        'spawn_prob': 0.12,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.06,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.2,
+        'food_competition': 0.03,
+        'food_pop_drain': 0.06,
+        'food_forest_bonus': 0.06,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.2411, 'round': 14, 'score': 81.1, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.2,
+        'food_competition': 0.01,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.04,
+        'port_survival_bonus': 0.02,
+    }},
+    {'rate': 0.2566, 'round': 17, 'score': 85.7, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.01,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.1,
+        'food_base_regen': 0.2,
+        'food_competition': 0.01,
+        'food_pop_drain': 0.04,
+        'food_forest_bonus': 0.08,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.2586, 'round': 11, 'score': 84.6, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.5,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.15,
+        'food_base_regen': 0.25,
+        'food_competition': 0.01,
+        'food_pop_drain': 0.06,
+        'food_forest_bonus': 0.08,
+        'port_survival_bonus': 0.0,
+    }},
+    {'rate': 0.3326, 'round': 18, 'score': 73.5, 'params': {
+        'spawn_prob': 0.1,
+        'spawn_pop_threshold': 0.3,
+        'death_base_rate': 0.005,
+        'death_food_factor': 0.02,
+        'pop_growth_rate': 0.12,
+        'food_base_regen': 0.35,
+        'food_competition': 0.01,
+        'food_pop_drain': 0.08,
+        'food_forest_bonus': 0.08,
+        'port_survival_bonus': 0.0,
+    }},
+]
+
+def params_from_rate(settle_rate):
+    """Interpolate SimParams from observed settle rate.
+    Uses weighted blend of two nearest calibration points."""
+    from simulator import SimParams
+    pts = _CALIBRATION_POINTS
+    rates = [p['rate'] for p in pts]
+
+    # Clamp to range
+    if settle_rate <= rates[0]:
+        return SimParams(**pts[0]['params'])
+    if settle_rate >= rates[-1]:
+        return SimParams(**pts[-1]['params'])
+
+    # Find bracketing points
+    for i in range(len(rates) - 1):
+        if rates[i] <= settle_rate <= rates[i+1]:
+            lo, hi = pts[i], pts[i+1]
+            t = (settle_rate - lo['rate']) / (hi['rate'] - lo['rate'])
+            blended = {}
+            for k in lo['params']:
+                blended[k] = lo['params'][k] * (1 - t) + hi['params'][k] * t
+            return SimParams(**blended)
+
+    return SimParams(**pts[len(pts)//2]['params'])
+

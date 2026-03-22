@@ -1,0 +1,44 @@
+Du har tilgang til 4 VM-er via SSH:
+- VM1: ssh -i ~/.ssh/google_compute_engine devstar18472@34.29.189.131 (192 CPU, produksjon)
+- VM2: ssh -i ~/.ssh/google_compute_engine devstar18472@136.111.222.121 (16 CPU, ML)
+- VM3: ssh -i ~/.ssh/google_compute_engine devstar18472@34.29.146.13 (112 CPU, eksperiment)
+- VM4: ssh -i ~/.ssh/google_compute_engine devstar18472@34.186.214.170 (112 CPU, R7/R12)
+
+Repo: ~/astar-island paa alle VM-er.
+Token for API: se backtest.py linje 21.
+Cron paa VM1 kjorer auto_run.py hvert 30 min for nye runder.
+
+OPPGAVE: Jobb kontinuerlig hele natten med aa forbedre Astar Island scoren.
+
+Syklus hvert 30 min:
+1. Sjekk VM-logger (tail night_vm1.log osv) for feil og resultater
+2. Sjekk om nye runder er aktive via API - kjor auto_run.py paa VM1 om nodvendig
+3. Analyser mellomresultater fra tuning (per_round_params.json, hypothesis_results.json)
+4. Naar en jobb er ferdig: les resultater, oppdater solver.py calibration via update_calibration.py
+5. Kjor backtest.py for aa verifisere forbedringer
+6. Start neste forbedringsjobb paa ledig VM
+
+Paagaaende nattjobber:
+- VM1: night_vm1.sh - Per-runde tuning R17/R18 + deep R1-R16 + cron auto_run.py
+- VM2: night_vm2.sh - learn_priors + ML re-training + hyperparameter tuning (train_model_tune.py)
+- VM3: night_vm3.sh - Hypotese-testing + eksperimentell simulator tuning
+- VM4: night_vm4.sh - R7/R12 deep param search + tune_per_round_3x.py
+
+Naar en VM er ferdig med sin jobb:
+- Les resultater fra logs/
+- Oppdater solver.py med update_calibration.py paa VM1
+- Synce per_round_params.json mellom VMer med scp
+- Start ny tune_per_round_3x.py jobb paa ledige runder
+- Kjor backtest og logg forbedringer
+
+VIKTIGE REGLER:
+- ALDRI kall /astar-island/simulate eller /astar-island/submit API uten at det er en aktiv runde
+- auto_run.py haandterer submissions automatisk via cron
+- Kun les-endepunkter (rounds, analysis, replay) er trygge aa kalle fritt
+- Aldri bruk per-celle observation overlay (R10-laerdommen)
+- Settlement prediction er 60-70% av score - fokuser der
+
+Maal: Ok backtest snitt fra 87.5 til 89+.
+Logg alt til ~/astar-island/night_monitor.log.
+Ikke stopp for morgenen - fortsett aa sjekke og forbedre i loop.
+Kjor en syklus hvert 20-30 minutt.

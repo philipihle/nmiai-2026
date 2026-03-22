@@ -1,0 +1,96 @@
+=== R22 ALL-IN LIKELIHOOD TUNING ===
+CPUs: 192
+R22: 50 obs, 5 seeds, settle_rate~0.047
+
+--- Phase 1: Coarse (seed 0, 20 MC) ---
+  801 combos (from 25920 possible)
+  [   1/801] 0s ETA 341s best_ll=-0.5763
+  [  50/801] 21s ETA 322s best_ll=-0.4880
+  [ 100/801] 43s ETA 299s best_ll=-0.4880
+  [ 150/801] 65s ETA 281s best_ll=-0.4742
+  [ 200/801] 86s ETA 258s best_ll=-0.4742
+  [ 250/801] 107s ETA 236s best_ll=-0.4735
+  [ 300/801] 142s ETA 237s best_ll=-0.4735
+  [ 350/801] 192s ETA 248s best_ll=-0.4659
+  [ 400/801] 243s ETA 244s best_ll=-0.4659
+  [ 450/801] 295s ETA 230s best_ll=-0.4659
+  [ 500/801] 348s ETA 210s best_ll=-0.4659
+  [ 550/801] 402s ETA 184s best_ll=-0.4659
+  [ 600/801] 455s ETA 152s best_ll=-0.4659
+  [ 650/801] 509s ETA 118s best_ll=-0.4659
+  [ 700/801] 562s ETA 81s best_ll=-0.4659
+  [ 750/801] 615s ETA 42s best_ll=-0.4659
+  [ 800/801] 668s ETA 1s best_ll=-0.4659
+
+Phase 1 done in 669s. Top 5:
+  LL=-0.4659 sp=0.1 db=0.06 dff=0.06 fbr=0.15 fc=0.05
+  LL=-0.4685 sp=0.12 db=0.04 dff=0.08 fbr=0.1 fc=0.03
+  LL=-0.4690 sp=0.12 db=0.04 dff=0.1 fbr=0.1 fc=0.03
+  LL=-0.4704 sp=0.12 db=0.02 dff=0.1 fbr=0.08 fc=0.05
+  LL=-0.4708 sp=0.12 db=0.02 dff=0.1 fbr=0.1 fc=0.03
+
+--- Phase 2: Top 30, all seeds, 50 MC ---
+  [5/30] 38s best_ll=-0.4156
+  [10/30] 74s best_ll=-0.4118
+  [15/30] 112s best_ll=-0.4118
+  [20/30] 150s best_ll=-0.4118
+  [25/30] 188s best_ll=-0.4118
+  [30/30] 227s best_ll=-0.4118
+
+Phase 2 done. Top 5:
+  LL=-0.4118 sp=0.08 db=0.04 dff=0.08 fbr=0.15
+  LL=-0.4128 sp=0.12 db=0.04 dff=0.08 fbr=0.12
+  LL=-0.4133 sp=0.08 db=0.04 dff=0.08 fbr=0.12
+  LL=-0.4144 sp=0.08 db=0.02 dff=0.06 fbr=0.12
+  LL=-0.4146 sp=0.12 db=0.06 dff=0.1 fbr=0.12
+
+--- Phase 3: Fine search, 100 MC ---
+  144 fine combos
+  NEW BEST at [1]: LL=-0.4015
+  NEW BEST at [2]: LL=-0.3991
+  NEW BEST at [3]: LL=-0.3985
+  [20/144] 207s best_ll=-0.3985
+  [40/144] 413s best_ll=-0.3985
+  [60/144] 618s best_ll=-0.3985
+  [80/144] 788s best_ll=-0.3985
+  NEW BEST at [98]: LL=-0.3980
+  [100/144] 978s best_ll=-0.3980
+  [120/144] 1179s best_ll=-0.3980
+  NEW BEST at [124]: LL=-0.3975
+  [140/144] 1380s best_ll=-0.3975
+  NEW BEST at [144]: LL=-0.3971
+
+=== FINAL BEST ===
+LL=-0.3971
+{
+  "spawn_prob": 0.08,
+  "spawn_pop_threshold": 0.72,
+  "death_base_rate": 0.04,
+  "death_food_factor": 0.08,
+  "food_base_regen": 0.12,
+  "food_competition": 0.05,
+  "food_pop_drain": 0.06,
+  "pop_growth_rate": 0.08,
+  "food_forest_bonus": 0.03,
+  "port_prob": 0.1,
+  "port_survival_bonus": 0.0,
+  "port_wealth_threshold": 0.0,
+  "spawn_max_per_step": 40
+}
+Traceback (most recent call last):
+  File "/home/devstar18472/astar-island/tune_r22_live.py", line 235, in <module>
+    main()
+  File "/home/devstar18472/astar-island/tune_r22_live.py", line 198, in main
+    json.dump({"best_ll": best_ll, "best_params": best_params}, f, indent=2)
+  File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable

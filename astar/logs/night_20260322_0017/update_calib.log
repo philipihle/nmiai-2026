@@ -1,0 +1,20 @@
+Loaded 15 calibration points
+  R 3: rate=0.021, score=87.8
+  R10: rate=0.027, score=87.4
+  R 8: rate=0.040, score=90.9
+  R16: rate=0.087, score=84.0
+  R 4: rate=0.103, score=87.8
+  R13: rate=0.105, score=88.3
+  R 5: rate=0.132, score=83.9
+  R 9: rate=0.138, score=87.4
+  R 1: rate=0.161, score=84.3
+  R 2: rate=0.186, score=83.5
+  R 6: rate=0.238, score=83.6
+  R14: rate=0.241, score=81.1
+  R17: rate=0.257, score=85.7
+  R11: rate=0.259, score=84.6
+  R18: rate=0.333, score=73.5
+Backup: solver.py.bak.1774139689
+Replacing 14 calibration points with 15
+Syntax check: OK
+solver.py updated successfully
