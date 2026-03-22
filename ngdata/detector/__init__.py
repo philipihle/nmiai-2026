@@ -1,0 +1,2 @@
+"""NGD object detection package."""
+

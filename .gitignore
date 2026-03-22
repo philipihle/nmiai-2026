@@ -9,3 +9,11 @@ build/
 .venv/
 venv/
 node_modules/
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.zip
+runs/
+.pytest_cache/
