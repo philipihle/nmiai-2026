@@ -13,7 +13,7 @@ from google.genai import types
 PROJECT = "ai-nm26osl-1847"
 SERVICE = "tripletex-agent"
 SYSTEM_PROMPT_PATH = "app/prompts/system_prompt.py"
-GEMINI_API_KEY = "REMOVED"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 
 def fetch_logs(minutes: int) -> str:
